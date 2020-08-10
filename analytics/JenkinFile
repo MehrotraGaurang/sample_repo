@@ -1,0 +1,15 @@
+pipeline {
+    agent any
+
+    stages {
+        stages("build") {
+            steps {
+
+            }
+        }
+    }
+}
+
+node {
+    //groovy script
+}
