@@ -8,7 +8,7 @@ pipeline {
        }
        stage('Two'){
           steps{
-            input('Proceed?')
+            echo 'Reached Stage 2'
           }
        }
      }
